@@ -1,0 +1,26 @@
+.text-area textarea {
+    border: none !important;
+    width: 545px;
+    height: 300px;
+}
+.text-editor {
+    border: 1px solid #ccc;
+    margin: 0 auto !important;
+    width: 550px;
+}
+.editor-topbar {
+    border-bottom: 1px solid #ccc;
+    background-color: #F4F6F9;
+    padding: 4px 3px;
+}
+.editor-topbar img {
+    align-items: center;
+    width: 12px;
+    justify-content: center;
+}
+.editor-topbar h1 {
+    margin: 0 !important;
+    margin-bottom: 10px !important;
+    font-family: arial !important;
+    font-size: 18px !important;
+}

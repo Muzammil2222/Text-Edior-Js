@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event listener Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="text-editor">
+        
+        <div class="editor-topbar">
+            <h1>Text Editor <span><img src="image/text-editor-svgrepo-com (1).svg" alt=""></span></h1>
+            <button id="bold-btn" class="topbar-btn"><img id="bold-btn" src="image/bold-svgrepo-com.svg" alt=""></button>
+            <button id="italic-btn" class="topbar-btn"><img src="image/italic-svgrepo-com.svg" alt=""></button>
+            <button id="underline-btn" class="topbar-btn"><img id="italic-btn" src="image/underline-svgrepo-com.svg" alt=""></button>
+            <button id="strike-btn" class="topbar-btn"><img src="image/strikethrough-svgrepo-com.svg" alt=""></button>
+            <button id="left-btn" class="topbar-btn"><img src="image/left-alignment-svgrepo-com.svg" alt=""></button>
+            <button id="center-btn" class="topbar-btn"><img src="image/center-alignment-svgrepo-com.svg" alt=""></button>
+            <button id="right-btn" class="topbar-btn"><img src="image/right-align-svgrepo-com.svg" alt=""></button>
+            <button id="justify-btn" class="topbar-btn"><img src="image/justify-text-svgrepo-com.svg" alt=""></button>
+            
+            <select name="" id="">
+                <option value="Font Family">Font Family</option>
+                <option value="">Poppins</option>
+                <option value="">Opensans</option>
+                <option value="">Roboto</option>
+                <option value="">Montserrat</option>
+            </select>
+            <select name="" id="">
+                <option value="Font Size">Font Size</option>
+                <option value="">10px</option>
+                <option value="">12px</option>
+                <option value="">14px</option>
+                <option value="">16px</option>
+                <option value="">18px</option>
+                <option value="">20px</option>
+                <option value="">22px</option>
+            </select>
+        </div>
+        <div class="text-area">
+            <textarea name="textarea" id="text"></textarea>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
